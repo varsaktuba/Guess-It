@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &878640277787799478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 878640277787799476}
+  - component: {fileID: 878640277787799477}
+  m_Layer: 0
+  m_Name: QuizManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &878640277787799476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878640277787799478}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &878640277787799477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878640277787799478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d5305cf8cfd4f4ba8fb16409412089, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QnA:
+  - Question: Question1
+    Answers:
+    - Answer1
+    - Answer2
+    CorrectAnswer: 1
+  - Question: Question2
+    Answers:
+    - Answer3
+    - Answer4
+    CorrectAnswer: 2
+  - Question: Question3
+    Answers:
+    - Answer5
+    - Answer6
+    CorrectAnswer: 2
+  - Question: Question4
+    Answers:
+    - Answer7
+    - Answer8
+    CorrectAnswer: 1
+  - Question: Question5
+    Answers:
+    - Answer9
+    - Answer10
+    CorrectAnswer: 2
+  - Question: Question6
+    Answers:
+    - Answer11
+    - Answer12
+    CorrectAnswer: 1
+  - Question: Question7
+    Answers:
+    - Answer13
+    - Answer14
+    CorrectAnswer: 1
+  - Question: Question8
+    Answers:
+    - Answer15
+    - Answer16
+    CorrectAnswer: 1
+  options:
+  - {fileID: 0}
+  - {fileID: 0}
+  currentQuestion: 0
+  gameControl: {fileID: 0}
+  sc: {fileID: 0}
+  rs: {fileID: 0}
+  QuestionTxt: {fileID: 0}
